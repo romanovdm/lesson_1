@@ -7,7 +7,7 @@ var mainList = {
   nameShop:"",
   shopGoods:[],
   employers: {},
-  open
+  open:false
 }
 
 mainList.budgetMonth = budgetMonth;
@@ -15,7 +15,7 @@ mainList.nameShop = nameShop;
 
 var i = 3;
 while(i) {
-	mainList.shopGoods.push = prompt("Какой тип товаров будем продавать?");
+	mainList.shopGoods.push(prompt("Какой тип товаров будем продавать?"));
 	i--;
 }
 
